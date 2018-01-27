@@ -5,4 +5,5 @@
 
 <ul>
     <li>LinkedList</li>
+    <li>Stack</li>
 </ul>
