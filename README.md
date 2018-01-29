@@ -6,5 +6,5 @@
 <ul>
     <li>LinkedList</li>
     <li>Stack</li>
-    <li>Queue<li>
+    <li>Queue</li>
 </ul>
