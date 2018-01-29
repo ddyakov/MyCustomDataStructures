@@ -36,6 +36,11 @@
         /// <param name="capacity"></param>
         public Stack(int capacity)
         {
+            if (capacity < 0)
+            {
+                throw new IndexOutOfRangeException("Invalid value!");
+            }
+
             this._size = 0;
             this._elements = new T[capacity];
         }
@@ -46,7 +51,7 @@
         public int Count => this._size;
 
         /// <summary>
-        /// Adds objects to the stack.
+        /// Adds value to the stack.
         /// </summary>
         /// <param name="value"></param>
         public void Push(T value)
